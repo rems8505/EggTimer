@@ -36,7 +36,7 @@ public class TimerValidationTest extends TestBase {
        URL hubURL = new URL("https://localhost:4445/hub");
        logger.info("tearDown() - AfterMethod - Quit WebDriver");
        createChromeDriver(hubURL, "https://e.ggtimer.com/");
-       logger.info("AfterMethod cleanupWebDriver() - afterMethod - ciqSeleniumWebDriver.quit(isPassed).");
+       logger.info("AfterMethod cleanupWebDriver() - afterMethod - ");
 
    }
 
